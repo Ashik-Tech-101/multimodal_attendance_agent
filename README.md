@@ -23,6 +23,12 @@ streamlit run app.py
 
 On macOS/Linux, activate with `source .venv/bin/activate` instead. If you only want video analysis, the app can still run when librosa is unavailable; audio analysis will be disabled.
 
+## Deploy
+
+This app can be deployed from the public GitHub repository to [Streamlit Community Cloud](https://share.streamlit.io/). Create a new app, select `Ashik-Tech-101/multimodal_attendance_agent`, choose the `main` branch and `app.py` as the entrypoint, then deploy.
+
+On a hosted app, use video uploads: the server cannot access a webcam attached to your device. Uploaded media is temporarily processed on the hosting server.
+
 ## Use
 
 1. Choose **Upload a video** and select an MP4/AVI/MOV file, or choose **Local webcam** and start capture.
