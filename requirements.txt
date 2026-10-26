@@ -1,0 +1,5 @@
+streamlit>=1.40,<2.0
+opencv-python>=4.10,<5.0
+numpy>=1.26,<3.0
+pandas>=2.2,<4.0
+librosa>=0.10.2,<1.0
